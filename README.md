@@ -45,36 +45,6 @@ The project focuses on **clean architecture, secure API design, database consist
 * 🔒 Secure transaction processing
 * 🗄️ PostgreSQL-based relational data management
 
----
-
-## 🏗️ System Architecture
-
-```text
-                    ┌──────────────────────┐
-                    │      Finora UI       │
-                    │      Next.js         │
-                    └──────────┬───────────┘
-                               │
-                               │ REST API
-                               ▼
-                    ┌──────────────────────┐
-                    │    Spring Boot      │
-                    │      Backend        │
-                    ├──────────────────────┤
-                    │ Authentication      │
-                    │ Business Logic      │
-                    │ Validation          │
-                    │ Transaction Service │
-                    │ REST Controllers    │
-                    └──────────┬───────────┘
-                               │
-                               │ JPA / Hibernate
-                               ▼
-                    ┌──────────────────────┐
-                    │     PostgreSQL      │
-                    │      Database       │
-                    └──────────────────────┘
-```
 
 ---
 
@@ -116,33 +86,6 @@ The project focuses on **clean architecture, secure API design, database consist
 * Maven
 * REST APIs
 
----
-
-## 📂 Project Structure
-
-```text
-Finora/
-│
-├── frontend/
-│   ├── app/
-│   ├── components/
-│   ├── services/
-│   ├── hooks/
-│   ├── lib/
-│   └── public/
-│
-├── backend/
-│   ├── src/
-│   │   ├── main/
-│   │   │   ├── java/
-│   │   │   │   └── com/finora/
-│   │   │   └── resources/
-│   │   └── test/
-│   ├── pom.xml
-│   └── README.md
-│
-└── README.md
-```
 
 ---
 
@@ -193,40 +136,6 @@ Transaction History
 ```
 
 Every transaction is validated before modifying account balances.
-
----
-
-## 🔄 Fund Transfer Flow
-
-```text
-Sender
-   │
-   ▼
-Validate Authentication
-   │
-   ▼
-Validate Sender Account
-   │
-   ▼
-Check Available Balance
-   │
-   ▼
-Validate Receiver Account
-   │
-   ▼
-Process Transaction
-   │
-   ├───────────────┐
-   ▼               ▼
-Debit Sender    Credit Receiver
-   │               │
-   └───────┬───────┘
-           ▼
-     Save Transaction
-           │
-           ▼
-      Return Response
-```
 
 ---
 
