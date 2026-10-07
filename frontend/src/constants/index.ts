@@ -1,4 +1,4 @@
-export const BANK_NAME = 'Northstar Bank';
+export const BANK_NAME = 'Finora Bank';
 
 export const API_BASE_URL =
   process.env.NEXT_PUBLIC_API_URL ||

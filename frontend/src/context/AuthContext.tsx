@@ -49,7 +49,7 @@ export function AuthProvider({ children }: { children: React.ReactNode }) {
     setTheme(newTheme);
     if (typeof document !== 'undefined') {
       document.documentElement.setAttribute('data-theme', newTheme);
-      localStorage.setItem('northstar-theme', newTheme);
+      localStorage.setItem('Finora-theme', newTheme);
     }
   }, []);
 
@@ -62,7 +62,7 @@ export function AuthProvider({ children }: { children: React.ReactNode }) {
     if (isPublicRoute) {
       applyTheme('light');
     } else {
-      const stored = (localStorage.getItem('northstar-theme') as 'light' | 'dark') || 'light';
+      const stored = (localStorage.getItem('Finora-theme') as 'light' | 'dark') || 'light';
       applyTheme(stored);
     }
   }, [pathname, isPublicRoute, applyTheme]);

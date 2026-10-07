@@ -24,7 +24,7 @@ export default function LandingPage() {
   const securityRef = useRef<HTMLElement | null>(null);
   const ctaRef = useRef<HTMLElement | null>(null);
 
-  const words = ['smarter.', 'faster.', 'secure.', 'modern.'];
+  const words = ['smarter.', 'faster.', 'safer.', 'simpler.'];
   const [currentWordIndex, setCurrentWordIndex] = useState(0);
   const currentYear = new Date().getFullYear();
 
@@ -33,22 +33,22 @@ export default function LandingPage() {
   const steps = [
     {
       title: 'Create your account',
-      desc: 'Sign up in minutes with your business details — no branch visit required.',
+      desc: 'Create your business account online in minutes — no branch visit required.',
     },
     {
       title: 'Verify your identity',
-      desc: 'Secure KYC verification keeps your account protected from day one.',
+      desc: 'Complete secure identity verification and protect your account from day one.',
     },
     {
       title: 'Start banking',
-      desc: 'Open accounts, transfer funds, and track everything from your dashboard.',
+      desc: 'Manage accounts, move money, and monitor every transaction from one secure dashboard.',
     },
   ];
 
   const testimonials = [
     {
       quote:
-        'Northstar cut our payment reconciliation time in half. The dashboard gives us clarity we never had before.',
+        'Finora gives our finance team a clear view of cash flow, payments, and performance in one place.',
       name: 'Sarah Chen',
       role: 'CFO, Bloom Studio',
       initials: 'SC',
@@ -56,26 +56,26 @@ export default function LandingPage() {
     },
     {
       quote:
-        'Opening a business account took less than ten minutes. Transfers are instant and fees are transparent.',
+        'From account setup to everyday transfers, Finora makes business banking simple, fast, and transparent.',
       name: 'Marcus Webb',
       role: 'Founder, Trailhead Co.',
       initials: 'MW',
-      color: '#7c3aed',
+      color: '#16a34a',
     },
     {
       quote:
-        'Security alerts and approval workflows give our finance team real peace of mind at scale.',
+        'Real-time alerts and secure approval workflows help our team stay in control as we grow.',
       name: 'Elena Ruiz',
       role: 'VP Finance, Nova Labs',
       initials: 'ER',
-      color: '#10b981',
+      color: '#16a34a',
     },
   ];
 
   const features = [
     {
-      title: 'Business Checking & Savings',
-      desc: 'Flexible accounts that help you run payroll, manage cash flow, and grow with confidence.',
+      title: 'Business Banking, Simplified',
+      desc: 'Flexible accounts built for payroll, operating expenses, cash flow, and long-term growth.',
       bg: 'rgba(37,99,235,0.1)',
       color: '#2563eb',
       icon: (
@@ -86,10 +86,10 @@ export default function LandingPage() {
       ),
     },
     {
-      title: 'Credit & Lending Solutions',
-      desc: 'Fast approvals and tailored terms to support expansion, equipment, and working capital.',
+      title: 'Smart Credit & Lending',
+      desc: 'Flexible financing designed to support expansion, working capital, and your next big move.',
       bg: 'rgba(16,185,129,0.1)',
-      color: '#10b981',
+      color: '#16a34a',
       icon: (
         <>
           <path d="M12 2v20M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6" />
@@ -98,9 +98,9 @@ export default function LandingPage() {
     },
     {
       title: 'Payments & Transfers',
-      desc: 'Send and receive funds instantly with speed, low fees, and full visibility across all channels.',
+      desc: 'Move money securely with fast transfers, transparent fees, and complete transaction visibility.',
       bg: 'rgba(236,72,153,0.1)',
-      color: '#ec4899',
+      color: '#f97316',
       icon: (
         <>
           <polyline points="22 12 18 12 15 21 9 3 6 12 2 12" />
@@ -108,10 +108,10 @@ export default function LandingPage() {
       ),
     },
     {
-      title: 'Digital Tools & Insights',
-      desc: 'Track budgets, forecast cash flow, and optimize spending with smart reporting dashboards.',
+      title: 'Financial Insights',
+      desc: 'Understand cash flow, plan ahead, and make better decisions with actionable financial insights.',
       bg: 'rgba(139,92,246,0.1)',
-      color: '#7c3aed',
+      color: '#16a34a',
       icon: (
         <>
           <circle cx="12" cy="12" r="10" />
@@ -120,10 +120,10 @@ export default function LandingPage() {
       ),
     },
     {
-      title: 'Merchant & POS Services',
-      desc: 'Integrated payment acceptance for in-store and online transactions with ease.',
+      title: 'Merchant Payments',
+      desc: 'Accept customer payments across digital and in-person channels with a seamless experience.',
       bg: 'rgba(245,158,11,0.1)',
-      color: '#f59e0b',
+      color: '#facc15',
       icon: (
         <>
           <rect x="2" y="4" width="20" height="16" rx="2" />
@@ -132,10 +132,10 @@ export default function LandingPage() {
       ),
     },
     {
-      title: 'Business Support Team',
-      desc: 'Dedicated experts available 24/7 to guide your financial strategy and keep you moving.',
+      title: 'Dedicated Business Support',
+      desc: 'Get practical support when you need it, with specialists focused on keeping your business moving.',
       bg: 'rgba(6,182,212,0.1)',
-      color: '#06b6d4',
+      color: '#2563eb',
       icon: (
         <>
           <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2" />
@@ -148,10 +148,10 @@ export default function LandingPage() {
   ];
 
   const securityItems = [
-    'Real-time fraud detection & alerts',
-    'Contextual risk signals on every payment',
+    'Real-time fraud monitoring & alerts',
+    'Risk-aware controls for every payment',
     'Multi-factor & biometric authentication',
-    'SOC 2 certified & GDPR compliant',
+    'Enterprise-grade privacy & compliance',
   ];
 
   const rootRef = useRef<HTMLDivElement | null>(null);
@@ -234,7 +234,7 @@ export default function LandingPage() {
 
             ctx.beginPath();
             ctx.arc(p.x, p.y, p.r, 0, Math.PI * 2);
-            ctx.fillStyle = 'rgba(37, 99, 235, 0.25)';
+            ctx.fillStyle = 'rgba(37, 99, 235, 0.22)';
             ctx.fill();
           });
 
@@ -247,7 +247,7 @@ export default function LandingPage() {
                 ctx.beginPath();
                 ctx.moveTo(particles[i].x, particles[i].y);
                 ctx.lineTo(particles[j].x, particles[j].y);
-                ctx.strokeStyle = `rgba(37, 99, 235, ${0.06 * (1 - dist / 150)})`;
+                ctx.strokeStyle = `rgba(22, 163, 74, ${0.055 * (1 - dist / 150)})`;
                 ctx.lineWidth = 0.5;
                 ctx.stroke();
               }
@@ -560,7 +560,7 @@ export default function LandingPage() {
           <div className="lp-hero-text">
             <div className="lp-hero-eyebrow" ref={heroEyebrowRef}>
               <span className="eyebrow-pulse"></span>
-              Trusted by 10,000+ businesses worldwide
+              Powering confident businesses with modern banking
             </div>
             <h1 className="lp-hero-title" ref={heroTitleRef}>
               Banking that
@@ -599,18 +599,18 @@ export default function LandingPage() {
                 <div className="trust-av" style={{ background: '#3b82f6' }}>
                   J
                 </div>
-                <div className="trust-av" style={{ background: '#8b5cf6' }}>
+                <div className="trust-av" style={{ background: '#16a34a' }}>
                   S
                 </div>
-                <div className="trust-av" style={{ background: '#ec4899' }}>
+                <div className="trust-av" style={{ background: '#f97316' }}>
                   M
                 </div>
-                <div className="trust-av" style={{ background: '#f59e0b' }}>
+                <div className="trust-av" style={{ background: '#facc15' }}>
                   A
                 </div>
               </div>
               <div className="trust-text">
-                <strong>4.9/5</strong> rating from <span>2,400+</span> reviews
+                <strong>4.9/5</strong> average rating from <span>2,400+</span> business reviews
               </div>
             </div>
           </div>
@@ -624,7 +624,7 @@ export default function LandingPage() {
                   <span></span>
                   <span></span>
                 </div>
-                <div className="mock-url">app.northstar.bank/dashboard</div>
+                <div className="mock-url">app.finora.bank / dashboard</div>
               </div>
               <div className="mock-body">
                 <div className="mock-sidebar">
@@ -643,14 +643,14 @@ export default function LandingPage() {
                       <div className="mock-metric-val" ref={counter1Ref}>
                         $0
                       </div>
-                      <div className="mock-metric-label">Total Balance</div>
+                      <div className="mock-metric-label">Available Balance</div>
                       <div className="mock-metric-trend up">+12.5%</div>
                     </div>
                     <div className="mock-metric">
                       <div className="mock-metric-val" ref={counter2Ref}>
                         $0
                       </div>
-                      <div className="mock-metric-label">Monthly Revenue</div>
+                      <div className="mock-metric-label">Cash Flow</div>
                       <div className="mock-metric-trend up">+8.2%</div>
                     </div>
                     <div className="mock-metric">
@@ -733,7 +733,7 @@ export default function LandingPage() {
 
       {/* ======================== LOGOS ======================== */}
       <section className="lp-logos" ref={logosRef} aria-label="Trusted partners">
-        <p className="lp-logos-label">Trusted by industry leaders</p>
+        <p className="lp-logos-label">Built for teams that expect more from banking</p>
         <div className="lp-logos-marquee" aria-hidden="true">
           <div className="lp-logos-track">
             {partnerLogos.map((logo, idx) => (
@@ -753,8 +753,8 @@ export default function LandingPage() {
       {/* ======================== HOW IT WORKS ======================== */}
       <section className="lp-steps" aria-label="How it works">
         <div className="lp-section-head">
-          <span className="lp-eyebrow">Simple onboarding</span>
-          <h2 className="lp-section-title">Up and running in minutes</h2>
+          <span className="lp-eyebrow">Get started with confidence</span>
+          <h2 className="lp-section-title">From application to banking in minutes</h2>
         </div>
         <div className="lp-steps-grid">
           {steps.map((step, i) => (
@@ -770,10 +770,10 @@ export default function LandingPage() {
       {/* ======================== FEATURES ======================== */}
       <section className="lp-features" id="features" ref={featuresRef} aria-label="Product features">
         <div className="lp-section-head">
-          <span className="lp-eyebrow">Everything you need</span>
-          <h2 className="lp-section-title">Built for modern businesses</h2>
+          <span className="lp-eyebrow">One platform. Complete control.</span>
+          <h2 className="lp-section-title">Banking built around your business</h2>
           <p className="lp-section-desc">
-            Powerful financial tools designed to help you manage, grow, and scale with confidence.
+            Everything you need to manage money, protect operations, and make confident financial decisions.
           </p>
         </div>
         <div className="lp-features-grid">
@@ -807,8 +807,8 @@ export default function LandingPage() {
         aria-label="Customer testimonials"
       >
         <div className="lp-section-head">
-          <span className="lp-eyebrow">What customers say</span>
-          <h2 className="lp-section-title">Loved by growing teams</h2>
+          <span className="lp-eyebrow">Trusted by growing businesses</span>
+          <h2 className="lp-section-title">Built for teams that move with confidence</h2>
         </div>
         <div className="lp-testimonials-grid">
           {testimonials.map((t, i) => (
@@ -832,9 +832,9 @@ export default function LandingPage() {
       <section className="lp-security" id="security" ref={securityRef} aria-label="Security">
         <div className="lp-security-grid">
           <div className="lp-security-copy">
-            <span className="lp-eyebrow">Protect your business</span>
+            <span className="lp-eyebrow">Security at every layer</span>
             <h2 className="lp-section-title">
-              Enterprise-grade security, <span className="text-gradient">built for every stage.</span>
+              Modern security, <span className="text-gradient">built into every transaction.</span>
             </h2>
             <p>
               Our platform helps you detect threats early, secure transactions, and keep operations
@@ -862,7 +862,7 @@ export default function LandingPage() {
               ))}
             </ul>
             <Link href="/login" className="lp-btn lp-btn-outline">
-              Learn about security
+              Explore our security
             </Link>
           </div>
           <div className="lp-security-visual">
@@ -883,8 +883,8 @@ export default function LandingPage() {
                 </svg>
               </div>
               <div className="sc-body">
-                <strong>Fraud detection</strong>
-                <span>AI-powered real-time monitoring</span>
+                <strong>Intelligent fraud detection</strong>
+                <span>Real-time transaction monitoring</span>
               </div>
             </div>
             <div className="lp-sec-card sc-2">
@@ -904,8 +904,8 @@ export default function LandingPage() {
                 </svg>
               </div>
               <div className="sc-body">
-                <strong>Secure approvals</strong>
-                <span>Contextual risk signals</span>
+                <strong>Secure payment approvals</strong>
+                <span>Context-aware risk controls</span>
               </div>
             </div>
             <div className="lp-sec-card sc-3">
@@ -925,8 +925,8 @@ export default function LandingPage() {
                 </svg>
               </div>
               <div className="sc-body">
-                <strong>100% uptime SLA</strong>
-                <span>Enterprise reliability</span>
+                <strong>Reliable banking infrastructure</strong>
+                <span>Designed for business continuity</span>
               </div>
             </div>
           </div>
@@ -938,7 +938,7 @@ export default function LandingPage() {
         <div className="lp-cta-glow"></div>
         <div className="lp-cta-content">
           <h2>
-            Ready to transform your
+            Ready to modernize your
             <br />
             <span className="text-gradient">business banking?</span>
           </h2>
@@ -947,7 +947,7 @@ export default function LandingPage() {
             No hidden fees. No surprises. Just results.
           </p>
           <Link href="/register" className="lp-btn lp-btn-primary lp-btn-lg">
-            <span>Open your free account</span>
+            <span>Open your business account</span>
             <svg
               width="18"
               height="18"
@@ -969,11 +969,12 @@ export default function LandingPage() {
       <footer className="lp-footer" aria-label="Site footer">
         <div className="lp-footer-grid">
           <div className="lp-footer-brand">
-            <div className="lp-footer-logo">
-              <span className="brand-mark">N</span>
+            <div className="lp-footer-logo">          <div className='w-10 d-flex justify-content-center align-items-center'>
+              <img src="https://i.postimg.cc/KjWzrD28/apple-touch-icon.png" width={35} alt="logo" />
+            </div>
               <strong>{BANK_NAME}</strong>
             </div>
-            <p>Modern business banking for teams that move fast.</p>
+            <p>Modern banking infrastructure for businesses that move with purpose.</p>
           </div>
           <div className="lp-footer-col">
             <h6>Product</h6>

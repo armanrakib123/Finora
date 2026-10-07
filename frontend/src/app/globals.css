@@ -8,9 +8,9 @@
   --border: #dfe8f5;
   --primary: #2563eb;
   --primary-dark: #123d8b;
-  --accent: #14b8a6;
-  --warning: #f59e0b;
-  --success: #10b981;
+  --accent: #16a34a;
+  --warning: #facc15;
+  --success: #16a34a;
   --danger: #ef4444;
 }
 
@@ -23,26 +23,26 @@
   --border: #22344d;
   --primary: #60a5fa;
   --primary-dark: #dbeafe;
-  --accent: #2dd4bf;
-  --warning: #fbbf24;
-  --success: #34d399;
+  --accent: #4ade80;
+  --warning: #fde047;
+  --success: #4ade80;
   --danger: #f87171;
 }
 
 :root[data-theme='dark'] .btn-success {
-  background: linear-gradient(135deg, #34d399 0%, #22c55e 100%);
+  background: linear-gradient(135deg, #4ade80 0%, #22c55e 100%);
   color: #0f172a;
   border: none;
 }
 
 :root[data-theme='dark'] .btn-warning {
-  background: linear-gradient(135deg, #fbbf24 0%, #f59e0b 100%);
+  background: linear-gradient(135deg, #fde047 0%, #facc15 100%);
   color: #0f172a;
   border: none;
 }
 
 :root[data-theme='dark'] .btn-info {
-  background: linear-gradient(135deg, #38bdf8 0%, #0ea5e9 100%);
+  background: linear-gradient(135deg, #60a5fa 0%, #2563eb 100%);
   color: #0f172a;
   border: none;
 }
@@ -345,7 +345,7 @@ app-root {
 }
 
 .hero-panel {
-  background: linear-gradient(135deg, rgba(37, 99, 235, 0.95) 0%, rgba(14, 116, 144, 0.95) 100%);
+  background: linear-gradient(135deg, rgba(37, 99, 235, 0.95) 0%, rgba(22, 163, 74, 0.95) 100%);
   color: white;
   border-radius: 24px;
   padding: 2rem;
@@ -399,7 +399,7 @@ app-root {
 .summary-card {
   padding: 1.25rem;
   border-radius: 20px;
-  background: linear-gradient(135deg, rgba(37, 99, 235, 0.1) 0%, rgba(20, 184, 166, 0.08) 100%);
+  background: linear-gradient(135deg, rgba(37, 99, 235, 0.1) 0%, rgba(22, 163, 74, 0.08) 100%);
   border: 1px solid rgba(37, 99, 235, 0.1);
 }
 
@@ -423,7 +423,7 @@ app-root {
 }
 
 .metric-card {
-  background: linear-gradient(135deg, rgba(37, 99, 235, 0.12) 0%, rgba(20, 184, 166, 0.08) 100%);
+  background: linear-gradient(135deg, rgba(37, 99, 235, 0.12) 0%, rgba(22, 163, 74, 0.08) 100%);
   border: 1px solid rgba(37, 99, 235, 0.12);
   border-radius: 18px;
   padding: 1rem 1.1rem;
@@ -461,8 +461,8 @@ app-root {
 }
 
 .state-card-warning {
-  border-color: rgba(245, 158, 11, 0.25);
-  background: rgba(245, 158, 11, 0.08);
+  border-color: rgba(250, 204, 21, 0.25);
+  background: rgba(250, 204, 21, 0.08);
   color: #92400e;
 }
 
@@ -581,7 +581,7 @@ app-root {
   height: 400px;
   bottom: -120px;
   left: -80px;
-  background: radial-gradient(circle, rgba(139, 92, 246, 0.1), transparent 70%);
+  background: radial-gradient(circle, rgba(249, 115, 22, 0.1), transparent 70%);
 }
 
 .auth-shell {
@@ -742,7 +742,7 @@ app-root {
   font-weight: 700;
   letter-spacing: 0.01em;
   border: none;
-  background: linear-gradient(135deg, #2563eb 0%, #7c3aed 100%);
+  background: linear-gradient(135deg, #2563eb 0%, #f97316 100%);
   color: #fff;
   box-shadow: 0 12px 32px rgba(37, 99, 235, 0.25);
   transition: transform 0.2s ease, box-shadow 0.2s ease;
@@ -977,18 +977,18 @@ app-root {
 }
 
 .dash-action-icon--deposit {
-  background: rgba(16, 185, 129, 0.12);
-  color: #10b981;
+  background: rgba(22, 163, 74, 0.12);
+  color: #16a34a;
 }
 
 .dash-action-icon--withdraw {
-  background: rgba(245, 158, 11, 0.12);
-  color: #f59e0b;
+  background: rgba(250, 204, 21, 0.12);
+  color: #facc15;
 }
 
 .dash-action-icon--transfer {
-  background: rgba(14, 165, 233, 0.12);
-  color: #0ea5e9;
+  background: rgba(37, 99, 235, 0.12);
+  color: #2563eb;
 }
 
 .dash-action-copy strong {
@@ -1038,8 +1038,8 @@ app-root {
 }
 
 .dash-activity-icon--deposit {
-  background: rgba(16, 185, 129, 0.12);
-  color: #10b981;
+  background: rgba(22, 163, 74, 0.12);
+  color: #16a34a;
 }
 
 .dash-activity-icon--withdraw {
@@ -1048,8 +1048,8 @@ app-root {
 }
 
 .dash-activity-icon--transfer {
-  background: rgba(14, 165, 233, 0.12);
-  color: #0ea5e9;
+  background: rgba(37, 99, 235, 0.12);
+  color: #2563eb;
 }
 
 .dash-activity-icon--default {
@@ -1171,7 +1171,7 @@ app-root {
   height: 420px;
   top: 30%;
   right: -120px;
-  background: radial-gradient(circle, rgba(139, 92, 246, 0.28), transparent 70%);
+  background: radial-gradient(circle, rgba(249, 115, 22, 0.28), transparent 70%);
 }
 
 .orb-3 {
@@ -1179,7 +1179,7 @@ app-root {
   height: 380px;
   bottom: 10%;
   left: 25%;
-  background: radial-gradient(circle, rgba(16, 185, 129, 0.22), transparent 70%);
+  background: radial-gradient(circle, rgba(22, 163, 74, 0.22), transparent 70%);
 }
 
 /* --- HERO --- */
@@ -1216,7 +1216,7 @@ app-root {
   width: 8px;
   height: 8px;
   border-radius: 50%;
-  background: #10b981;
+  background: #16a34a;
   animation: lp-pulse 2s ease-in-out infinite;
 }
 
@@ -1236,7 +1236,7 @@ app-root {
 
 .lp-hero-rotating {
   display: inline-block;
-  background: linear-gradient(135deg, #2563eb, #7c3aed, #ec4899);
+  background: linear-gradient(135deg, #2563eb, #f97316, #facc15);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
@@ -1272,7 +1272,7 @@ app-root {
 }
 
 .lp-btn-primary {
-  background: linear-gradient(135deg, #2563eb 0%, #7c3aed 100%);
+  background: linear-gradient(135deg, #2563eb 0%, #f97316 100%);
   color: #fff;
   box-shadow: 0 8px 28px rgba(37, 99, 235, 0.3);
 }
@@ -1375,8 +1375,8 @@ app-root {
 }
 
 .mock-dots span:nth-child(1) { background: #f87171; }
-.mock-dots span:nth-child(2) { background: #fbbf24; }
-.mock-dots span:nth-child(3) { background: #34d399; }
+.mock-dots span:nth-child(2) { background: #fde047; }
+.mock-dots span:nth-child(3) { background: #4ade80; }
 
 .mock-url {
   flex: 1;
@@ -1467,7 +1467,7 @@ app-root {
 }
 
 .mock-metric-trend.up {
-  color: #10b981;
+  color: #16a34a;
 }
 
 .mock-chart {
@@ -1519,8 +1519,8 @@ app-root {
 }
 
 .mf-icon-green {
-  background: rgba(16, 185, 129, 0.15);
-  color: #10b981;
+  background: rgba(22, 163, 74, 0.15);
+  color: #16a34a;
 }
 
 .mf-icon-blue {
@@ -1666,7 +1666,7 @@ app-root {
 }
 
 .lp-feature-card:hover::before {
-  background: linear-gradient(135deg, rgba(37, 99, 235, 0.3), rgba(139, 92, 246, 0.2), transparent);
+  background: linear-gradient(135deg, rgba(37, 99, 235, 0.3), rgba(249, 115, 22, 0.2), transparent);
 }
 
 .lp-fc-icon {
@@ -1730,7 +1730,7 @@ app-root {
   width: 2.5rem;
   height: 2.5rem;
   border-radius: 50%;
-  background: linear-gradient(135deg, #2563eb, #7c3aed);
+  background: linear-gradient(135deg, #2563eb, #f97316);
   color: #fff;
   font-weight: 800;
   font-size: 0.95rem;
@@ -1835,7 +1835,7 @@ app-root {
 }
 
 .text-gradient {
-  background: linear-gradient(135deg, #2563eb, #7c3aed);
+  background: linear-gradient(135deg, #2563eb, #f97316);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
@@ -1872,8 +1872,8 @@ app-root {
   width: 26px;
   height: 26px;
   border-radius: 50%;
-  background: rgba(16, 185, 129, 0.15);
-  color: #10b981;
+  background: rgba(22, 163, 74, 0.15);
+  color: #16a34a;
   flex-shrink: 0;
 }
 
@@ -1881,7 +1881,7 @@ app-root {
   position: relative;
   min-height: 380px;
   border-radius: 24px;
-  background: linear-gradient(160deg, rgba(37, 99, 235, 0.08), rgba(16, 185, 129, 0.06));
+  background: linear-gradient(160deg, rgba(37, 99, 235, 0.08), rgba(22, 163, 74, 0.06));
   overflow: hidden;
 }
 
@@ -2023,7 +2023,7 @@ app-root {
   width: 2rem;
   height: 2rem;
   border-radius: 50%;
-  background: linear-gradient(135deg, #2563eb, #7c3aed);
+  background: linear-gradient(135deg, #2563eb, #f97316);
   color: #fff;
   font-size: 0.85rem;
   font-weight: 800;
@@ -2085,7 +2085,7 @@ app-root {
 .lp-footer-cta {
   padding: 0.45rem 1rem;
   border-radius: 999px;
-  background: linear-gradient(135deg, #2563eb, #7c3aed);
+  background: linear-gradient(135deg, #2563eb, #f97316);
   color: #fff !important;
 }
 
@@ -2192,3 +2192,727 @@ html {
   }
 }
 
+
+
+
+
+/* =========================================================
+   FINORA PREMIUM NAVBAR
+   Green • Yellow • Orange • Blue
+   ========================================================= */
+
+.finora-navbar {
+  min-height: 76px;
+  background: rgba(255, 255, 255, 0.92);
+  border-bottom: 1px solid rgba(15, 23, 42, 0.07);
+  backdrop-filter: blur(18px);
+  -webkit-backdrop-filter: blur(18px);
+  z-index: 1050;
+  transition: all 0.3s ease;
+}
+
+.dark .finora-navbar,
+[data-theme="dark"] .finora-navbar {
+  background: rgba(15, 23, 42, 0.92);
+  border-bottom-color: rgba(255, 255, 255, 0.08);
+}
+
+/* ================= BRAND ================= */
+
+.finora-brand {
+  display: inline-flex !important;
+  align-items: center;
+  gap: 11px;
+  text-decoration: none !important;
+  padding: 0 !important;
+}
+
+.finora-brand-mark {
+  width: 42px;
+  height: 42px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  border-radius: 13px;
+
+  color: #ffffff;
+  font-size: 20px;
+  font-weight: 800;
+
+  background: linear-gradient(
+    135deg,
+    #34a853 0%,
+    #2563eb 55%,
+    #ff9800 100%
+  );
+
+  box-shadow:
+    0 8px 20px rgba(37, 99, 235, 0.18);
+
+  position: relative;
+  overflow: hidden;
+}
+
+.finora-brand-mark::after {
+  content: "";
+  position: absolute;
+  width: 18px;
+  height: 18px;
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 0.2);
+  top: -5px;
+  right: -5px;
+}
+
+.finora-brand-content {
+  display: flex;
+  flex-direction: column;
+  line-height: 1;
+}
+
+.finora-brand-name {
+  color: #172033;
+  font-size: 20px;
+  font-weight: 800;
+  letter-spacing: -0.5px;
+}
+
+.finora-brand-tagline {
+  margin-top: 5px;
+  color: #7b8494;
+  font-size: 8px;
+  font-weight: 700;
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+}
+
+.dark .finora-brand-name,
+[data-theme="dark"] .finora-brand-name {
+  color: #ffffff;
+}
+
+.dark .finora-brand-tagline,
+[data-theme="dark"] .finora-brand-tagline {
+  color: #94a3b8;
+}
+
+/* ================= NAV LINKS ================= */
+
+.finora-nav-link {
+  min-height: 42px;
+  display: inline-flex !important;
+  align-items: center;
+  gap: 7px;
+
+  padding: 9px 13px !important;
+  border-radius: 10px;
+
+  color: #596579 !important;
+  font-size: 14px;
+  font-weight: 600;
+
+  text-decoration: none !important;
+
+  transition:
+    color 0.2s ease,
+    background 0.2s ease,
+    transform 0.2s ease;
+}
+
+.finora-nav-link:hover {
+  color: #2563eb !important;
+  background: rgba(37, 99, 235, 0.07);
+  transform: translateY(-1px);
+}
+
+.finora-nav-link.active {
+  color: #ffffff !important;
+
+  background: linear-gradient(
+    135deg,
+    #2563eb,
+    #34a853
+  );
+
+  box-shadow:
+    0 7px 18px rgba(37, 99, 235, 0.18);
+}
+
+.finora-nav-link.active svg {
+  color: #ffffff;
+}
+
+.dark .finora-nav-link,
+[data-theme="dark"] .finora-nav-link {
+  color: #cbd5e1 !important;
+}
+
+.dark .finora-nav-link:hover,
+[data-theme="dark"] .finora-nav-link:hover {
+  color: #60a5fa !important;
+  background: rgba(96, 165, 250, 0.09);
+}
+
+/* ================= ADMIN ================= */
+
+.finora-nav-link.admin-link {
+  color: #e87500 !important;
+}
+
+.finora-nav-link.admin-link:hover {
+  background: rgba(255, 152, 0, 0.09);
+}
+
+.finora-nav-link.admin-link.active {
+  color: #ffffff !important;
+
+  background: linear-gradient(
+    135deg,
+    #ff9800,
+    #f59e0b
+  );
+}
+
+/* ================= DIVIDER ================= */
+
+.finora-nav-divider {
+  width: 1px;
+  height: 28px;
+  margin: 0 8px;
+  background: #e5e7eb;
+}
+
+.dark .finora-nav-divider,
+[data-theme="dark"] .finora-nav-divider {
+  background: rgba(255, 255, 255, 0.12);
+}
+
+/* ================= THEME BUTTON ================= */
+
+.finora-theme-button {
+  min-height: 40px;
+
+  display: inline-flex;
+  align-items: center;
+  gap: 7px;
+
+  padding: 8px 12px;
+
+  border: 1px solid #e5e7eb;
+  border-radius: 10px;
+
+  background: #ffffff;
+  color: #596579;
+
+  font-size: 13px;
+  font-weight: 600;
+
+  transition: all 0.2s ease;
+}
+
+.finora-theme-button:hover {
+  border-color: #2563eb;
+  color: #2563eb;
+  transform: translateY(-1px);
+}
+
+.dark .finora-theme-button,
+[data-theme="dark"] .finora-theme-button {
+  background: rgba(255, 255, 255, 0.05);
+  border-color: rgba(255, 255, 255, 0.1);
+  color: #cbd5e1;
+}
+
+/* ================= GET STARTED ================= */
+
+.finora-get-started {
+  min-height: 42px;
+
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 9px;
+
+  margin-left: 8px;
+  padding: 9px 18px;
+
+  color: #ffffff !important;
+  text-decoration: none !important;
+
+  font-size: 14px;
+  font-weight: 700;
+
+  border-radius: 11px;
+
+  background: linear-gradient(
+    135deg,
+    #2563eb,
+    #34a853
+  );
+
+  box-shadow:
+    0 8px 20px rgba(37, 99, 235, 0.18);
+
+  transition:
+    transform 0.2s ease,
+    box-shadow 0.2s ease;
+}
+
+.finora-get-started:hover {
+  color: #ffffff !important;
+  transform: translateY(-2px);
+
+  box-shadow:
+    0 12px 25px rgba(37, 99, 235, 0.25);
+}
+
+.finora-get-started span {
+  font-size: 18px;
+  line-height: 1;
+  transition: transform 0.2s ease;
+}
+
+.finora-get-started:hover span {
+  transform: translateX(3px);
+}
+
+/* ================= PROFILE ================= */
+
+.finora-profile-wrapper {
+  position: relative;
+  margin-left: 8px;
+}
+
+.finora-profile-button {
+  min-height: 48px;
+
+  display: flex;
+  align-items: center;
+  gap: 9px;
+
+  padding: 5px 8px 5px 6px;
+
+  border: 1px solid #e5e7eb;
+  border-radius: 13px;
+
+  background: #ffffff;
+
+  cursor: pointer;
+
+  transition: all 0.2s ease;
+}
+
+.finora-profile-button:hover {
+  border-color: rgba(37, 99, 235, 0.35);
+  background: #f8fbff;
+
+  box-shadow:
+    0 8px 22px rgba(15, 23, 42, 0.08);
+}
+
+.dark .finora-profile-button,
+[data-theme="dark"] .finora-profile-button {
+  background: rgba(255, 255, 255, 0.05);
+  border-color: rgba(255, 255, 255, 0.1);
+}
+
+.finora-avatar {
+  width: 36px;
+  height: 36px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  flex-shrink: 0;
+
+  overflow: hidden;
+
+  border-radius: 11px;
+
+  color: #ffffff;
+  background: linear-gradient(
+    135deg,
+    #2563eb,
+    #34a853
+  );
+
+  font-size: 12px;
+  font-weight: 800;
+}
+
+.finora-avatar img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.finora-profile-info {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+
+  max-width: 125px;
+}
+
+.finora-profile-name {
+  max-width: 125px;
+
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+
+  color: #172033;
+
+  font-size: 13px;
+  font-weight: 700;
+}
+
+.finora-profile-email {
+  max-width: 125px;
+
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+
+  margin-top: 2px;
+
+  color: #8a94a6;
+
+  font-size: 10px;
+  font-weight: 500;
+}
+
+.dark .finora-profile-name,
+[data-theme="dark"] .finora-profile-name {
+  color: #ffffff;
+}
+
+.dark .finora-profile-email,
+[data-theme="dark"] .finora-profile-email {
+  color: #94a3b8;
+}
+
+.finora-chevron {
+  color: #7b8494;
+  transition: transform 0.2s ease;
+}
+
+.finora-chevron.rotate {
+  transform: rotate(180deg);
+}
+
+/* ================= PROFILE DROPDOWN ================= */
+
+.finora-profile-dropdown {
+  position: absolute;
+
+  top: calc(100% + 10px);
+  right: 0;
+
+  width: 260px;
+
+  padding: 10px;
+
+  border: 1px solid #e5e7eb;
+  border-radius: 16px;
+
+  background: #ffffff;
+
+  box-shadow:
+    0 20px 50px rgba(15, 23, 42, 0.14);
+
+  animation: finoraDropdownIn 0.18s ease-out;
+
+  z-index: 2000;
+}
+
+@keyframes finoraDropdownIn {
+  from {
+    opacity: 0;
+    transform: translateY(-5px) scale(0.98);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0) scale(1);
+  }
+}
+
+.dark .finora-profile-dropdown,
+[data-theme="dark"] .finora-profile-dropdown {
+  background: #111827;
+  border-color: rgba(255, 255, 255, 0.1);
+  box-shadow:
+    0 20px 50px rgba(0, 0, 0, 0.35);
+}
+
+.finora-dropdown-user {
+  display: flex;
+  align-items: center;
+  gap: 11px;
+
+  padding: 10px;
+}
+
+.finora-dropdown-avatar {
+  width: 42px;
+  height: 42px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  flex-shrink: 0;
+
+  overflow: hidden;
+
+  border-radius: 12px;
+
+  color: #ffffff;
+  background: linear-gradient(
+    135deg,
+    #2563eb,
+    #34a853
+  );
+
+  font-size: 13px;
+  font-weight: 800;
+}
+
+.finora-dropdown-avatar img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.finora-dropdown-user div:last-child {
+  min-width: 0;
+  display: flex;
+  flex-direction: column;
+}
+
+.finora-dropdown-user strong {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+
+  color: #172033;
+
+  font-size: 13px;
+}
+
+.finora-dropdown-user span {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+
+  margin-top: 3px;
+
+  color: #8a94a6;
+
+  font-size: 10px;
+}
+
+.dark .finora-dropdown-user strong,
+[data-theme="dark"] .finora-dropdown-user strong {
+  color: #ffffff;
+}
+
+.finora-dropdown-divider {
+  height: 1px;
+  margin: 7px 4px;
+
+  background: #edf0f4;
+}
+
+.dark .finora-dropdown-divider,
+[data-theme="dark"] .finora-dropdown-divider {
+  background: rgba(255, 255, 255, 0.08);
+}
+
+.finora-dropdown-item,
+.finora-dropdown-logout {
+  width: 100%;
+
+  display: flex;
+  align-items: center;
+  gap: 10px;
+
+  padding: 10px 11px;
+
+  border: 0;
+  border-radius: 9px;
+
+  background: transparent;
+
+  color: #596579;
+
+  font-size: 13px;
+  font-weight: 600;
+
+  text-decoration: none;
+
+  cursor: pointer;
+
+  transition: all 0.2s ease;
+}
+
+.finora-dropdown-item:hover {
+  color: #2563eb;
+  background: rgba(37, 99, 235, 0.07);
+}
+
+.finora-dropdown-logout {
+  color: #ef4444;
+}
+
+.finora-dropdown-logout:hover {
+  color: #dc2626;
+  background: rgba(239, 68, 68, 0.07);
+}
+
+.dark .finora-dropdown-item,
+[data-theme="dark"] .finora-dropdown-item {
+  color: #cbd5e1;
+}
+
+/* ================= MOBILE TOGGLE ================= */
+
+.finora-mobile-toggle {
+  display: none;
+
+  width: 42px;
+  height: 42px;
+
+  align-items: center;
+  justify-content: center;
+
+  border: 1px solid #e5e7eb;
+  border-radius: 10px;
+
+  background: #ffffff;
+  color: #172033;
+
+  cursor: pointer;
+}
+
+.dark .finora-mobile-toggle,
+[data-theme="dark"] .finora-mobile-toggle {
+  background: rgba(255, 255, 255, 0.05);
+  border-color: rgba(255, 255, 255, 0.1);
+  color: #ffffff;
+}
+
+/* =========================================================
+   RESPONSIVE
+   ========================================================= */
+
+@media (max-width: 991.98px) {
+
+  .finora-navbar {
+    min-height: 68px;
+  }
+
+  .finora-mobile-toggle {
+    display: flex;
+  }
+
+  .finora-navbar-collapse {
+    position: absolute;
+
+    top: calc(100% + 1px);
+    left: 0;
+    right: 0;
+
+    padding: 14px 18px 18px;
+
+    background: #ffffff;
+
+    border-bottom: 1px solid #e5e7eb;
+
+    box-shadow:
+      0 18px 35px rgba(15, 23, 42, 0.08);
+  }
+
+  .dark .finora-navbar-collapse,
+  [data-theme="dark"] .finora-navbar-collapse {
+    background: #0f172a;
+    border-bottom-color: rgba(255, 255, 255, 0.08);
+  }
+
+  .finora-navbar-collapse:not(.show) {
+    display: none;
+  }
+
+  .finora-navbar-collapse .navbar-nav {
+    align-items: stretch !important;
+    gap: 4px !important;
+  }
+
+  .finora-nav-link {
+    width: 100%;
+    justify-content: flex-start;
+  }
+
+  .finora-nav-divider {
+    width: 100%;
+    height: 1px;
+    margin: 8px 0;
+  }
+
+  .finora-theme-button {
+    width: 100%;
+    justify-content: flex-start;
+  }
+
+  .finora-get-started {
+    width: 100%;
+    margin: 6px 0 0;
+  }
+
+  .finora-profile-wrapper {
+    margin: 5px 0 0;
+  }
+
+  .finora-profile-button {
+    width: 100%;
+    justify-content: flex-start;
+  }
+
+  .finora-profile-info {
+    flex: 1;
+  }
+
+  .finora-profile-dropdown {
+    position: static;
+
+    width: 100%;
+    margin-top: 7px;
+
+    box-shadow: none;
+  }
+}
+
+@media (max-width: 575.98px) {
+
+  .finora-brand-mark {
+    width: 38px;
+    height: 38px;
+    border-radius: 11px;
+  }
+
+  .finora-brand-name {
+    font-size: 18px;
+  }
+
+  .finora-brand-tagline {
+    font-size: 7px;
+  }
+
+  .finora-mobile-toggle {
+    width: 38px;
+    height: 38px;
+  }
+}

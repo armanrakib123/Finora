@@ -307,7 +307,7 @@ export default function RegisterPage() {
                   onChange={(e) =>
                     setPhone(e.target.value.replace(/[^0-9+ ]/g, ''))
                   }
-                  placeholder="+1 (555) 000-0000"
+                  placeholder="+88 017 1234 5678"
                 />
               </div>
             </div>

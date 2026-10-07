@@ -11,9 +11,9 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  title: 'Northstar Bank — Modern Business Banking',
+  title: 'Finora Bank — Modern Business Banking',
   description:
-    'Manage cash flow, access credit, and grow faster with Northstar Bank — modern business banking built for startups and enterprises.',
+    'Manage cash flow, access credit, and grow faster with Finora Bank — modern business banking built for startups and enterprises.',
   icons: {
     icon: [
       { url: '/favicon.ico', sizes: 'any' },
@@ -22,7 +22,7 @@ export const metadata: Metadata = {
     apple: [{ url: '/apple-touch-icon.png', sizes: '180x180' }],
   },
   openGraph: {
-    title: 'Northstar Bank — Modern Business Banking',
+    title: 'Finora Bank — Modern Business Banking',
     description:
       'Open accounts, transfer funds, and track every transaction from one streamlined experience.',
   },
