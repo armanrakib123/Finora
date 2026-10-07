@@ -1,5 +1,5 @@
 ---
-name: Northstar Bank
+name: Finora Bank
 description: Modern business banking platform design system
 colors:
   primary: "#2563eb"

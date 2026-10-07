@@ -16,7 +16,6 @@ export const metadata: Metadata = {
     'Manage cash flow, access credit, and grow faster with Northstar Bank — modern business banking built for startups and enterprises.',
   icons: {
     icon: [
-      { url: '/favicon.svg', type: 'image/svg+xml' },
       { url: '/favicon.ico', sizes: 'any' },
       { url: '/favicon.png', type: 'image/png', sizes: '32x32' },
     ],
