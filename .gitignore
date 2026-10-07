@@ -1,0 +1,36 @@
+# Dependencies
+node_modules/
+**/node_modules/
+
+# Build output
+frontend/dist/
+backend/target/
+
+# IDE and editor files
+.vscode/
+.idea/
+*.iml
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Environment files
+.env
+.env.*
+!.env.example
+
+
+
+# Java class files
+*.class
+
+# JAR files
+*.jar
+!backend/.mvn/wrapper/*.jar
+
+# Maven/Gradle
+backend/.mvn/
