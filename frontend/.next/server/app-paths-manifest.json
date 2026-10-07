@@ -1,7 +1,14 @@
 {
+  "/_not-found/page": "app/_not-found/page.js",
+  "/accounts/page": "app/accounts/page.js",
+  "/create-account/page": "app/create-account/page.js",
   "/admin/page": "app/admin/page.js",
+  "/accounts/[accountNumber]/page": "app/accounts/[accountNumber]/page.js",
+  "/dashboard/page": "app/dashboard/page.js",
+  "/deposit/page": "app/deposit/page.js",
+  "/login/page": "app/login/page.js",
+  "/transfer/page": "app/transfer/page.js",
   "/page": "app/page.js",
   "/register/page": "app/register/page.js",
-  "/accounts/page": "app/accounts/page.js",
-  "/accounts/[accountNumber]/page": "app/accounts/[accountNumber]/page.js"
+  "/withdraw/page": "app/withdraw/page.js"
 }

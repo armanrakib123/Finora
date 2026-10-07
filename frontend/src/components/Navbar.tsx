@@ -50,29 +50,38 @@ export default function Navbar() {
    * user.avatar
    * user.photoURL
    */
-  const userImage =
-    user?.image ||
-    user?.avatar ||
-    user?.photoURL ||
-    '';
+const currentUser = user as {
+  image?: string;
+  avatar?: string;
+  photoURL?: string;
+  name?: string;
+  fullName?: string;
+  username?: string;
+  email?: string;
+};
 
-  const userName =
-    user?.name ||
-    user?.fullName ||
-    user?.username ||
-    'User';
+const userImage =
+  currentUser?.image ||
+  currentUser?.avatar ||
+  currentUser?.photoURL ||
+  '';
 
-  const userEmail =
-    user?.email ||
-    '';
+const userName =
+  currentUser?.name ||
+  currentUser?.fullName ||
+  currentUser?.username ||
+  'User';
 
-  const initials = userName
-    .split(' ')
-    .map((word: string) => word[0])
-    .join('')
-    .slice(0, 2)
-    .toUpperCase();
+const userEmail =
+  currentUser?.email || '';
 
+const initials = userName
+  .split(' ')
+  .filter(Boolean)
+  .map((word: string) => word[0])
+  .join('')
+  .slice(0, 2)
+  .toUpperCase();
   /*
    * Close profile dropdown when clicking outside.
    */
