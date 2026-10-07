@@ -52,7 +52,7 @@ public class SecurityConfig {
         return http.build();
     }
 
-    @Value("${app.cors.allowed-origins:http://localhost:3000,http://127.0.0.1:3000,http://localhost:4200}")
+    @Value("${app.cors.allowed-origins:https://finora-eight-ivory.vercel.app,http://127.0.0.1:3000,http://localhost:4200}")
     private String allowedOrigins;
 
     @Bean

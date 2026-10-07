@@ -38,7 +38,7 @@ spring:
 # ===== CORS Configuration =====
 app:
   cors:
-    allowed-origins: ${CORS_ALLOWED_ORIGINS:http://localhost:3000,http://127.0.0.1:3000,http://localhost:4200}
+    allowed-origins: ${CORS_ALLOWED_ORIGINS:https://finora-eight-ivory.vercel.app,http://127.0.0.1:3000,http://localhost:4200}
 
   # ===== JWT Configuration =====
   jwt:
