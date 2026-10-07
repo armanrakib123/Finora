@@ -1,9 +1,9 @@
 <p align="center">
   <img src="./frontend/public/apple-touch-icon.png" alt="Nexora Logo" width="180" />
 </p>
-
-# 🏦 Finora — Modern Banking System
-
+<h1 align="center">
+  Finora
+</h1>
 <p align="center">
   <strong>A secure, scalable, and modern digital banking platform built with Next.js, Spring Boot, and PostgreSQL.</strong>
 </p>
